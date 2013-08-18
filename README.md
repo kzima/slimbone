@@ -10,4 +10,4 @@ A modern web app skeleton based on slim and backbone
 4. Seperation of frontend and logic
 5. Rapid development ready
 
-#Coming soon
+##Coming soon...
