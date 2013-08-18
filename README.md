@@ -39,7 +39,7 @@ I decided to save meteor to my bookmarks for now and I kept looking.
 Then I tried Laravel, and ... it just didn't work for me. Again I was foced with the folder structure and I didn't have time
 to go through documentation and stack overflow on how to do things.
 
-Then I checked Fat Free micro Framework and I found it very slim (only 55kb). The only problem was that I wanted to be able to manage
+Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I wanted to be able to manage
 it in my composer dependency and FF3 wasn't available in packagist.org.
 
 So I followed the micro framework breadcrumb and I found Slim. Bingo!
