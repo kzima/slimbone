@@ -25,6 +25,9 @@ A modern web app skeleton based on slim and backbone.
 12. easy file structure - with separate template for admin and app
 13. grunt - for improved workflow with js/css compilation
 
+##Quickstart
+coming soon...
+
 ##Why slimbone?
 Right now there is no ideal solution that is flexible enough to build complex web apps more easily.
 I went through multiple php and javascript technologies and I would like to share my findings with you.
