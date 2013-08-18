@@ -43,7 +43,7 @@ to go through documentation and stack overflow on how to do things.
 Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I was unable to manage FF3 dependency in composer. 
 
 So I followed the micro framework breadcrumb and I found Slim framework. Bingo! It's sleek, intuitive, easy to learn and very flexible.
-I put all the bits and pieces together and build this skeleton to save my time with the next app. 
+I put all the bits and pieces together and build this skeleton to save my time next time. 
 Because the beackend is structured using slim and forntend use backbone I couldn't call it other than "slimbone" :)
 
 ##What you can do with slimbone?
