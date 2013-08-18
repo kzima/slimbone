@@ -52,7 +52,7 @@ Because the beackend is structured using slim and forntend use backbone I couldn
 ##What can you do with slimbone?
 You can now focus on building apps with complex UI and save time thanks to separation of the frontend and beckend. 
 For each new project you can now update all the dependencies in the frontend and backend much easier than before.
-You can build restful API's very quickly thanks to collection route mapping and mongoDB.
+You can build restful API's very quickly thanks to dynamic collection route mapping and mongoDB.
 
 ##To do 
 1.add authentication module
