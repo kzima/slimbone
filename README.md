@@ -23,33 +23,33 @@ A modern web app skeleton based on slim and backbone.
 10. twitter bootstrap - for frontend development
 11. font awesome - for vector icons
 12. easy file structure - with separate template for admin and app
+13. grunt - for improved workflow with js/css compilation
 
 ##Why slimbone?
 Right now there is no ideal solution that is flexible enough to build complex web apps more easily.
 I went through multiple php and javascript technologies and I would like to share my findings with you.
 
 I was using Yii framework for a while and I realized MVC structure is not for me.
-Besides Yii (v1.1) is not restfull ready and in fairness I just used up to 20% of the framework's functionality.
+I also found that Yii (v1.1) is not restfull ready and in fairness I just used up to 20% of the framework's functionality in my development.
 I decided to switch to something lean.
 
-I came across of Meteor js and I must admit that I really like it. The concept of having an app built in pure javascript is ver appealing. 
+I came across of Meteor js and I must admit that I really liked it. The concept of having an app built in pure javascript is ver appealing. 
 Unfortunately I don't think it's ready for production yet (v0.6.5) and I don't think I am ready to fully switch to javascript.
 I decided to save meteor to my bookmarks for now and I kept looking.
 
 Then I tried Laravel, and ... it just didn't work for me. Again I was foced with the folder structure and I didn't have time
 to go through documentation and stack overflow on how to do things.
 
-Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I wanted to be able to manage
-it in my composer dependency and FF3 wasn't available in packagist.org.
+Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I was unable to manage FF3 dependency in composer. 
 
 So I followed the micro framework breadcrumb and I found Slim framework. Bingo! It's sleek, inuitive, easy to learn and very flexible.
 I put all the bits and pieces together and build this sceleton to save my time with the next app. 
-Because the beackend is structured using slim and forntend use backbone I counld't call it diffrently than "slimbone".
+Because the beackend is structured using slim and forntend use backbone I counld't call it other than "slimbone" :)
 
 ##What you can do with slimbone?
 You can now focus on building apps with complex UI and save time thanks to seperation of the frontend and beckend. 
-For each new project you can now update all the dependecies in the front end and backend much easier than before.
-You can build restful API's very quickly thanks to collection route mapping.
+For each new project you can now update all the dependecies in the frontend and backend much easier than before.
+You can build restful API's very quickly thanks to collection route mapping and mongoDB.
 
 ##To do 
 1.add authentication module
@@ -58,5 +58,4 @@ You can build restful API's very quickly thanks to collection route mapping.
 coming soon...
 
 ##Resources
-coming soon
-##Coming soon...
+coming soon...
