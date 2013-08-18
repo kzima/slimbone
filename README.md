@@ -27,8 +27,6 @@ A modern web app skeleton based on slim and backbone.
 ##Why slimbone?
 Right now there is no ideal solution that is flexible enough to build complex web apps more easily.
 I went through multiple php and javascript technologies and I would like to share my findings with you.
-like meteor.js, Yii Framework, Sinatra, Fat Free Framework, 
-Laravel and I realised tha I none of them are good enough.
 
 I was using Yii framework for a while and I realized MVC structure is not for me.
 Besides Yii (v1.1) is not restfull ready and in fairness I just used up to 20% of the framework's functionality.
