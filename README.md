@@ -15,7 +15,7 @@ A modern web app skeleton based on slim and backbone.
 2. mongoDB - for flexible schema and collection storage 
 3. backbone - for javascript structure 
 4. underscore - utility library to help with javascript coding
-5. requirejs - for javascript dependency manager and module loading
+5. requirejs - for javascript dependency management and module loading
 6. composer - package manger for backend stuff
 7. bower - package manager for frontend stuff
 8. i18n - for localisation
