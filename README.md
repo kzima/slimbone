@@ -46,7 +46,7 @@ So I followed the micro framework breadcrumb and I found Slim framework. Bingo! 
 I put all the bits and pieces together and build this skeleton to save my time next time. 
 Because the beackend is structured using slim and forntend use backbone I couldn't call it other than "slimbone" :)
 
-##What you can do with slimbone?
+##What can you do with slimbone?
 You can now focus on building apps with complex UI and save time thanks to separation of the frontend and beckend. 
 For each new project you can now update all the dependencies in the frontend and backend much easier than before.
 You can build restful API's very quickly thanks to collection route mapping and mongoDB.
