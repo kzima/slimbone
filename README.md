@@ -42,12 +42,21 @@ to go through documentation and stack overflow on how to do things.
 Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I wanted to be able to manage
 it in my composer dependency and FF3 wasn't available in packagist.org.
 
-So I followed the micro framework breadcrumb and I found Slim. Bingo!
-It allowed me to put all the technologies I wanted into one skeleton so I could reuse it later. Thanks to dependency managers
-I could update to the latest versions of everything with just few commands. 
-Simple file struture allows me to manage my code more easily than before.  
-Separation of the logic and frontend makes my app very flexible and I can now built complex UI with no time. 
-Perfect!
+So I followed the micro framework breadcrumb and I found Slim framework. Bingo! It's sleek, inuitive, easy to learn and very flexible.
+I put all the bits and pieces together and build this sceleton to save my time with the next app. 
+Because the beackend is structured using slim and forntend use backbone I counld't call it diffrently than "slimbone".
+
+##What you can do with slimbone?
+You can now focus on building apps with complex UI and save time thanks to seperation of the frontend and beckend. 
+For each new project you can now update all the dependecies in the front end and backend much easier than before.
+You can build restful API's very quickly thanks to collection route mapping.
 
 ##To do 
+1.add authentication module
+
+##Demo
+coming soon...
+
+##Resources
+coming soon
 ##Coming soon...
