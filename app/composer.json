@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "2",
+        "slim/extras": "*",
+        "twig/twig": "1.*",
+        "twig/extensions": "dev-master",
+        "umpirsky/twig-gettext-extractor": "1.1.*"
+    },
+   "autoload": {
+		"psr-0":{
+			"mongo":"lib/"
+		},
+        "files":["lib/functions.php"]
+    },
+    "minimum-stability": "dev"
+}
