@@ -1,7 +1,7 @@
 slimbone
 ========
 
-A modern web app skeleton based on slim and backbone.
+To help developers build better apps with complex UI.
 
 ##Primary Concepts
 1. Restful API's
@@ -46,13 +46,14 @@ to go through documentation and stack overflow on how to do things.
 Then I checked Fat Free micro Framework and I found it very slim (only 55kb) and flexible. The only problem was that I was unable to manage FF3 dependency in composer. 
 
 So I followed the micro framework breadcrumb and I found Slim framework. Bingo! It's sleek, intuitive, easy to learn and very flexible.
-I put all the bits and pieces together and build this skeleton to save my time next time. 
-Because the beackend is structured using slim and forntend use backbone I couldn't call it other than "slimbone" :)
+I put all the bits and pieces together and built this skeleton to save my time with the next app. 
 
 ##What can you do with slimbone?
-You can now focus on building apps with complex UI and save time thanks to separation of the frontend and beckend. 
+You can now focus on building apps with complex UI and save time thanks to separation of the design and application logic. 
 For each new project you can now update all the dependencies in the frontend and backend much easier than before.
 You can build restful API's very quickly thanks to dynamic collection route mapping and mongoDB.
+It's so flexible that you can remove unwanted modules, replace and extend exitsing ones.
+It comes with Mongo support and folder structure that I think is easy to manage but feel free tho change it to your needs.
 
 ##To do 
 1.add authentication module
@@ -61,4 +62,29 @@ You can build restful API's very quickly thanks to dynamic collection route mapp
 coming soon...
 
 ##Resources
-coming soon...
+###BackboneBackbone book online:
+http://addyosmani.github.io/backbone-fundamentals/
+
+what does backbone extend do?
+http://stackoverflow.com/questions/13105574/extend-using-underscore-vs-backbone
+
+best practices
+http://ricostacruz.com/backbone-patterns/
+
+model, view, collection explained
+http://backbonetutorials.com/
+http://alexbachuk.com/backbone-js-explained/
+
+simple hello world tutorial
+http://stephanielkim.tumblr.com/post/39175133744/a-humble-hello-world-backbone-js-example
+
+todo app tutorial
+http://arturadib.com/hello-backbonejs/
+
+another todo tutorial (backbone docs)
+
+step by step tutorial
+http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/
+
+backbone views explained
+http://kilon.org/blog/2012/11/3-tips-for-writing-better-backbone-views/
