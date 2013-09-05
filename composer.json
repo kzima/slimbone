@@ -1,0 +1,15 @@
+{
+    "name": "kzima/slimbone",
+    "description": "Biolerplate that helps developers build better apps with complex UI.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kris Zima",
+            "email": "kris@mosquito.ie"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
