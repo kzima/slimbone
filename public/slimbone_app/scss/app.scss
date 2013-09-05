@@ -1,9 +1,33 @@
 @import "../../common/bootstrap/dist/css/bootstrap.css";
-body {
+@import "compass"; 
+body{
 	background: #3276B1;  
+}
+.rotate-left-90{
+    @include rotate(90deg); 
+}
+.rotate-left-180{
+    @include rotate(180deg); 
+}
+.rotate-left-270{
+    @include rotate(270deg); 
 }
 .navbar-default .navbar-brand {
 	color: #3276B1;
+    position: relative;
+    margin-left: 3px;
+    .glyphicon {
+        position: absolute;
+        top: 19px;
+    }
+    .left-bone {
+        left: 0px;
+        font-size: 14px
+    }
+    .right-bone {
+        right: -3px;
+        font-size: 14px;
+    }
 }
 .ajax-content {
     position: relative;
@@ -31,5 +55,17 @@ body {
     }
 }
 footer {
-    color: #fff;
+    p {color: #fff;}
+    hr {border: 1px solid #428BCA;}
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px){
+    .navbar-header {
+        float: none;
+    }
+    .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
 }

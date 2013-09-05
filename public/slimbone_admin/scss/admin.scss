@@ -1,7 +1,31 @@
 @import "../../common/bootstrap/dist/css/bootstrap.css";
+@import "compass";
 body {
 	background: #ED9C28;  
 }
+.rotate-left-90{
+    @include rotate(90deg); 
+}
+.rotate-left-180{
+    @include rotate(180deg); 
+}
+.rotate-left-270{
+    @include rotate(270deg); 
+}
 .navbar-default .navbar-brand {
 	color: #ED9C28;
+    position: relative;
+    margin-left: 3px;
+    .glyphicon {
+        position: absolute;
+        top: 19px;
+    }
+    .left-bone {
+        left: 0px;
+        font-size: 14px
+    }
+    .right-bone {
+        right: -3px;
+        font-size: 14px;
+    }
 }
