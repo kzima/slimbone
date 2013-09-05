@@ -62,7 +62,9 @@ It comes with Mongo support and folder structure that I think is easy to manage 
 coming soon...
 
 ##Resources
-###BackboneBackbone book online:
+###Backbone
+
+Backbone book online:
 http://addyosmani.github.io/backbone-fundamentals/
 
 what does backbone extend do?
