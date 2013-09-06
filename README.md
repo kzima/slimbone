@@ -54,7 +54,7 @@ and in your public folder
 projectname_admin
 projectname_app
 
-4. Enjoy!
+5. Enjoy!
 
 ##Why slimbone?
 Right now there is no ideal solution that is flexible enough to build complex web apps more easily.
