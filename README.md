@@ -7,7 +7,7 @@ To help developers build better apps with complex UI.
 1. Restful API's
 2. Easy to install, maintain and extend
 3. Follows best practices
-4. Separation of frontend and logic
+4. Separation of application logic and design
 5. Does not force MVC pattern
 
 ##What's included?
@@ -26,7 +26,35 @@ To help developers build better apps with complex UI.
 13. grunt - for improved workflow with js/css compilation
 
 ##Quickstart
-coming soon...
+1. Clone it
+git clone https://github.com/kzima/slimbone.git slimbone
+
+2. Install php dependencies (including slim and twig)
+cd app
+composer install
+
+3. [optional] update bower dependencies
+cd public
+bower update
+
+4. change the "slimbone" name to your project name
+nano app/config/config.php
+
+Also: If you are going to use grunt:
+nano public/Gruntfile.js
+
+change slimbone_app string to your own project name
+change slimbone_admin string to your own project name
+change folder names in /public accordingly
+
+*Note: Please make sure your project folder names are different from your route name (add project name as a prefix)
+eg.in your app/router.php 
+$app->get('/admin/' ...
+and in your public folder
+projectname_admin
+projectname_app
+
+4. Enjoy!
 
 ##Why slimbone?
 Right now there is no ideal solution that is flexible enough to build complex web apps more easily.
@@ -59,9 +87,24 @@ It comes with Mongo support and folder structure that I think is easy to manage 
 1.add authentication module
 
 ##Demo
-coming soon...
+[http://slimbone.mosquito.ie](http://slimbone.mosquito.ie)
+
+##Screenshots
+![slimbone skeleton](http://slimbone.mosquito.ie/uploads/screenshot1.jpg)
+![slimbone grunt](http://slimbone.mosquito.ie/uploads/screenshot2.jpg)
 
 ##Resources
+##Slim framework
+
+Documentation
+http://docs.slimframework.com/
+
+proposed folder structure for your app
+http://slimframework.com/news/how-to-organize-a-large-slim-framework-application
+
+##Mongo DB install
+http://docs.mongodb.org/manual/installation/
+
 ###Backbone
 
 Backbone book online:

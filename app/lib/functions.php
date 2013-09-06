@@ -3,7 +3,7 @@
 
 /* i18n Twig extension */
 function loadTwigi18n (){
-	$loader = new Twig_Loader_Filesystem();
+	$loader = new Twig_Loader_Filesystem('../public');
 	$twig   = new Twig_Environment($loader, array(
 	        // 'cache' => 'cache',
 	        ));
